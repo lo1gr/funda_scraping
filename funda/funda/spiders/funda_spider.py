@@ -24,6 +24,10 @@ class QuotesSpider(scrapy.Spider):
             'rooms': response.xpath('//ul[@class="search-result-kenmerken "]/li[2]/text()').extract(),
             'link': response.xpath('//div[@class="search-result__header-title-col"]/a[1]/@href').extract()
         }
+        
+        next_page = response.xpath('//a[@rel="next"]/@href').get()
+        if next_page is not None:
+            yield response.follow(next_page, callback=self.parse)
 
         # //*[@id="default"]/div[1]/div/div/div/section/div[2]/ol/li[1]/article/h3/a
 
