@@ -1,0 +1,17 @@
+[
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 425.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 550.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 450.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 550.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 450.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": null},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result promo\" data-...'>", "price": "\u20ac 495.204 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 400.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": null},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 450.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": null},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": "\u20ac 495.204 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result promo\" data-...'>", "price": "\u20ac 400.000 k.k."},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-listin...'>", "price": null},
+{"lol": "<Selector xpath=\"descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' search-result ')]\" data='<li class=\"search-result\" data-search...'>", "price": null}
+]
