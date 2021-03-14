@@ -14,8 +14,7 @@ class QuotesSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-
-
+        
         yield {
             'price': response.xpath('//span[@class="search-result-price"]/text()').extract(),
             'address': response.xpath('//h4[@class="search-result__header-subtitle fd-m-none"]/text()').extract(),
@@ -24,7 +23,7 @@ class QuotesSpider(scrapy.Spider):
             'rooms': response.xpath('//ul[@class="search-result-kenmerken "]/li[2]/text()').extract(),
             'link': response.xpath('//div[@class="search-result__header-title-col"]/a[1]/@href').extract()
         }
-        
+
         next_page = response.xpath('//a[@rel="next"]/@href').get()
         if next_page is not None:
             yield response.follow(next_page, callback=self.parse)
